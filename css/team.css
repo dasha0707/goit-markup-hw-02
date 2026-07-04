@@ -1,10 +1,4 @@
-#team {
-    background-color: #F4F4FD;
-    padding: 120px 0;
-}
-
-#team h2 {
-    margin-bottom: 72px;
+.team-title {
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
@@ -13,24 +7,7 @@
     color: #2E2F42;
 }
 
-#team ul {
-    display: flex;
-    gap: 24px;
-}
-
-#team li {
-    width: calc((100% - 72px) / 4);
-    background-color: #FFFFFF;
-}
-
-#team img {
-    display: block;
-    width: 100%;
-}
-
-#team h3 {
-    margin-top: 32px;
-    margin-bottom: 8px;
+.team-subtitle {
     text-align: center;
     font-size: 20px;
     line-height: 1.2;
@@ -38,8 +15,7 @@
     color: #2E2F42;
 }
 
-#team p {
-    margin-bottom: 32px;
+.team-text {
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
